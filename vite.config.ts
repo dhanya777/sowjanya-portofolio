@@ -3,7 +3,9 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
+  // ensure correct base for GitHub Pages when building for production
+  base: mode === "production" ? "/sowjanya-portofolio/" : "/",
   plugins: [
     react(),
     runtimeErrorOverlay(),
@@ -37,4 +39,4 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
-});
+}));
