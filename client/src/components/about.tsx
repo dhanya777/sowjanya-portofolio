@@ -4,8 +4,13 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export default function About() {
   const handleDownloadResume = () => {
-    // This would trigger resume download in a real implementation
-    console.log("Download Resume clicked");
+    // Create a link to download the resume PDF
+    const link = document.createElement('a');
+    link.href = '/Sowjanya_Vangalapudi_Resume.pdf';
+    link.download = 'Sowjanya_Vangalapudi_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   const education = [

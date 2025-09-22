@@ -1,10 +1,11 @@
 import { Download, Mail, User, Sparkles, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 export default function Hero() {
   const handleViewResume = () => {
-    // This would trigger resume download in a real implementation
-    console.log("View Resume clicked");
+    // Open the resume PDF in a new tab
+    window.open("/Sowjanya_Vangalapudi_Resume.pdf", "_blank");
   };
 
   const handleContactMe = () => {
@@ -94,10 +95,13 @@ export default function Hero() {
               <div className="absolute inset-2 rounded-full bg-gradient-to-l from-accent/20 to-primary-foreground/20 animate-pulse"></div>
               
               {/* Main Image Container */}
-              <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-primary-foreground/20 to-accent/20 backdrop-blur-sm border-4 border-primary-foreground/20 flex items-center justify-center shadow-2xl" data-testid="hero-image-container">
-                <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-br from-primary-foreground/30 to-accent/30 flex items-center justify-center backdrop-blur-lg" data-testid="hero-image-placeholder">
-                  <User className="w-20 h-20 lg:w-28 lg:h-28 text-primary-foreground/70" />
-                </div>
+              <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-primary-foreground/20 to-accent/20 backdrop-blur-sm border-4 border-primary-foreground/20 flex items-center justify-center shadow-2xl overflow-hidden" data-testid="hero-image-container">
+                <img 
+                  src={profilePhoto} 
+                  alt="Sowjanya Vangalapudi - Professional Photo" 
+                  className="w-full h-full object-cover rounded-full"
+                  data-testid="hero-profile-image"
+                />
               </div>
               
               {/* Floating Elements */}
