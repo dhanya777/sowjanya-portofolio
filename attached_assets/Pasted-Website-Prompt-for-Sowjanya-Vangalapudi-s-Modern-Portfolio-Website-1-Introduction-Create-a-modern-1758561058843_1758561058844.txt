@@ -1,0 +1,90 @@
+Website Prompt for Sowjanya Vangalapudi’s Modern Portfolio Website
+
+1. Introduction:
+Create a modern, professional, and minimalistic portfolio website for Sowjanya Vangalapudi, a PSPO-certified QA Leader with 7+ years of experience in software quality assurance, test management, automation, and API testing. The website should immediately convey credibility and expertise with a clean hero section featuring Sowjanya’s name, title ("Senior QA Consultant | Test Lead"), and a professional headshot placeholder.
+
+2. Website Structure & Sections:
+
+Home:
+
+Brief headline: “Driving Quality Through Strategy, Leadership & Automation”
+
+Subtext summarizing bio in 2–3 lines
+
+Call-to-action buttons (View Resume, Contact Me)
+
+About:
+
+Detailed bio: Highlight career journey, leadership skills, and QA expertise
+
+Education timeline: NIT Nagpur (B.Tech), Sri Chaitanya (XII), Siddhartha (X)
+
+Certifications (PSPO I, Product Management Summer School by IIIT Hyderabad)
+
+Awards & Recognitions (Women in Tech Nomination, Prefect Leadership, Jagriti Yatra Participant)
+
+Skills & Expertise:
+
+Categorized list of skills:
+
+Test Management & Strategy: Test Planning, Execution, Risk Mitigation, Release Mgmt
+
+Leadership & Agile: Team Mgmt, Resource Planning, Stakeholder Communication
+
+Automation & Tools: UFT, SoapUI, JIRA, ServiceNow, Gitlab pipelines
+
+Programming & Databases: SQL, C#
+
+Cloud & Infra: AWS, IBM Cloud, OpenShift, Containers
+
+Visual representation (e.g., skill bars or icon grid)
+
+Services:
+
+Highlight professional services Sowjanya offers:
+
+QA Leadership & Governance
+
+API & Migration Testing
+
+Automation Framework Optimization
+
+Agile QA Coaching
+
+Contact:
+
+Contact form (Name, Email, Message)
+
+Direct links for Email, Phone, LinkedIn
+
+Social icons styled minimally
+
+3. Design Recommendations:
+
+Color Palette: Professional, tech-forward palette with navy blue (#1F3C88), white (#FFFFFF), and soft gray (#F5F6FA) as background accents. Use teal or sky blue (#4FC3F7) for CTA highlights.
+
+Typography:
+
+Headings: Modern sans-serif (e.g., Poppins or Montserrat, bold)
+
+Body text: Clean sans-serif (e.g., Open Sans or Roboto, regular)
+
+Layout:
+
+Full-width hero section with centered headline
+
+Section-based layout with ample white space
+
+Responsive grid for skills and services
+
+Sticky navigation bar for easy browsing
+
+4. Special Considerations:
+
+Optimize for mobile and tablet views.
+
+Keep the overall tone minimalistic and professional — avoid flashy animations but allow subtle hover effects.
+
+Include downloadable resume button in both Home and About sections.
+
+Use profile photo placeholder until Sowjanya provides an image.
